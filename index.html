@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание</title>
+    <script>
+        function login(){
+            user_login = prompt("Введите логин ОУ");
+            if (user_login == "26"){
+                window.location.href = "raspisanie/26/26.html";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Добро пожаловать!</h2>
+    <p>Войдите в свой аккаунт для просмотра расписания ОУ</p>
+    <button onclick="login()">Войти</button>
+</body>
+</html>
